@@ -9,7 +9,7 @@
         <Setter Property="TextBox.Padding" Value="5"/>
         <Style.Triggers>            
             <DataTrigger Binding="{Binding ElementName=radioBlack, Path=IsChecked}" Value="True">
-                <Setter Property="TextBox.Foreground" Value="Wheat"/>
+                <Setter Property="TextBox.Foreground" Value="White"/>
             </DataTrigger>
             <DataTrigger Binding="{Binding ElementName=radioRed, Path=IsChecked}" Value="True">
                 <Setter Property="TextBox.Foreground" Value="Red"/>
